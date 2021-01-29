@@ -16,12 +16,11 @@ University of the Highlands and Islands T2
 
 1. [Overview](#overview)
 2. [The idea | How it works](#the-idea)
-4. [Diagrams](#diagrams)
-5. [Documents](#documents)
-6. [Technology](#technology)
-7. [Getting started](#getting-started)
-8. [Resources](#resources)
-9. [License](#license)
+3. [Documents](#documents)
+4. [Technology](#technology)
+5. [Getting started](#getting-started)
+6. [Resources](#resources)
+7. [License](#license)
 
 ## Overview
 
@@ -69,12 +68,6 @@ If we cannot prevent natural disasters from occurring then we want everyone to k
 way to get through it. The suffering caused by an event like this can be unimaginable but with our 
 community app that has been built around you, you will  always have friends and people who will do 
 whatever it takes to help, all they ask is you do the same.
-
-
-## Diagrams
-![App Screen 1](/images/Screenshot_1605207243.png)
-![App Screen 2](/images/app-screen-2)
-![Diagram](/images/architecture-diagram.png)
 
 
 ## Documents
