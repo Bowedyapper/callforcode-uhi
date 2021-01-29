@@ -1,0 +1,6 @@
+applications:
+- name: disaster-resilience
+  command: npm start
+  path: ./starter-kit/server-app/
+  memory: 128M
+  instances: 1
