@@ -1,4 +1,4 @@
-# IBM Call for code spot challenge - Climate change
+# <ins>First Place</ins> in the Disaster Resilience Category for IBM's Call for code spot challenge - Climate change
 
 Did you know that there 409 natural disasters occurred across the world last year?
 Every year natural disasters kill around 90,000 people and affect close to 160 million people worldwide.
