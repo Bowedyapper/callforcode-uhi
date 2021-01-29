@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-core.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-service.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-mapevents.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-ui.js" type="text/javascript" charset="utf-8"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://js.api.here.com/v3/3.1/mapsjs-ui.css" />
+    <link rel="stylesheet" type="text/css" href="css/here.css" />
+
+    <title>SolutionsStarterKitCooperation2020App | HERE Map</title>
+  </head>
+  <body>
+    <div id="mapContainer"></div>
+      <div id="routePanel">
+        <ul></ul>
+      </div>
+    </div>
+
+    <script>
+      const togglePanel = function () {
+        const sidebarButton = document.getElementById('sidebarButton');
+        const sidebarPanel = document.getElementById('sidebarPanel');
+        if (sidebarPanel.className.indexOf('sidebarExpanded') === -1) {
+          sidebarPanel.classList.add('sidebarExpanded');
+        } else {
+          sidebarPanel.classList.remove('sidebarExpanded');
+        }
+      }
+
+      const init = function () {
+        const search = document.getElementById('searchButton');
+        search.addEventListener('click', function () {
+          const text = document.getElementById('searchInput').value.trim();
+          if (text) {
+            searchFor(text);
+          }
+
+        })
+      }
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', init);
+      } else {
+        init();
+      }
+    </script>
+
+    <script src="js/here.js"></script>
+  </body>
+</html>
