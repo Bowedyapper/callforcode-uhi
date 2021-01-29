@@ -71,7 +71,7 @@ whatever it takes to help, all they ask is you do the same.
 
 
 ## Documents
-[Powerpoint Presentation](https://uhi.atlassian.net/secure/RapidBoard.jspa?rapidView=43&projectKey=S4CT2&modal=detail&selectedIssue=S4CT2-38)
+[Powerpoint Presentation](https://github.com/iLewisBrogan/callforcode-uhi/blob/main/Presentation-CFC-Team2.pptx?raw=true)
 
 
 ## Technology
